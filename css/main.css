@@ -3,6 +3,31 @@ html, body {
 	height: 100%;
 }
 
-.intro {
-	margin-top: 50px;
+body .intro {
+	padding-top: 80px !important;
+	height: 93%;
+}
+
+body .intro-body {
+	height: 100%;
+}
+
+.left {
+	height: 100%;
+	border-right: 0.1em solid grey;
+	border-left: 0.1em solid grey;
+}
+
+.right {
+	height: 100%;
+	border-right: 0.1em solid grey;
+}
+
+.footer {
+	border-top: 5px solid red;
+	position: absolute;
+	bottom: 0;
+	height: 7%;
+	width: 100%;
+	/*background-color: grey;*/
 }
