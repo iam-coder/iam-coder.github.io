@@ -64,12 +64,40 @@
                         <h4>Let's get started ;)</h4>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="col-md-8 col-xs-12 right text-center">
-                        <div class="row">
-                            TODO: Add that button here!
-                        </div>
-                    </div>
+                <div class="col-md-8 col-xs-12 right">
+                    <nav class="menu">
+                        <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+                        <label class="menu-open-button" for="menu-open">
+                            <span class="hamburger hamburger-1"></span>
+                            <span class="hamburger hamburger-2"></span>
+                            <span class="hamburger hamburger-3"></span>
+                        </label>
+                        <a href="#" class="menu-item"> <i class="fa fa-bar-chart"></i> </a>
+                        <a href="#" class="menu-item"> <i class="fa fa-plus"></i> </a>
+                        <a href="#" class="menu-item"> <i class="fa fa-heart"></i> </a>
+                        <a href="#" class="menu-item"> <i class="fa fa-envelope"></i> </a>
+                        <a href="#" class="menu-item"> <i class="fa fa-cog"></i> </a>
+                        <a href="#" class="menu-item"> <i class="fa fa-ellipsis-h"></i> </a>
+                    </nav>
+                    <!-- filters -->
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+                        <defs>
+                            <filter id="shadowed-goo">
+                                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                                <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+                                <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+                                <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+                                <feComposite in2="shadow" in="goo" result="goo" />
+                                <feComposite in2="goo" in="SourceGraphic" result="mix" />
+                            </filter>
+                            <filter id="goo">
+                                <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+                                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+                                <feComposite in2="goo" in="SourceGraphic" result="mix" />
+                            </filter>
+                        </defs>
+                    </svg>
                 </div>
             </div>
         </div>
@@ -91,6 +119,9 @@
             </div>
         </div>
     </div>
+    <footer class="footer">
+        Copyrights © 2015 I All Rights Reserved.
+    </footer>
     <script type="text/javascript">
     var textarray = [
         "Front-End Development",
@@ -115,18 +146,17 @@
     }, 500);
     </script>
     <!-- Smooth Scrolling -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
     $("#menu-close").click(function(e) {
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
     });
     </script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>
     window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
     </script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/material.js"></script>
     <script src="js/ripples.js"></script>
     <script src="js/main.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
