@@ -54,8 +54,11 @@ body {
 /*/////////////////////*/
 
 .early-access {
-	/*height: */
     background-color: rgba(119, 232, 28, 0.3);
+}
+
+.early-access > div .col-md-5 {
+	vertical-align: middle;
 }
 
 .early-access-div {
@@ -63,7 +66,7 @@ body {
 }
 
 .form-early-access {
-    padding-top: 13px !important;
+    padding-top: 17px !important;
 }
 
 .form-early-access > input {
@@ -363,4 +366,10 @@ body {
     .footer {
         height: 25px;
     }
+}
+
+@media(max-width: : 768px){
+	.footer > div.col-md-5 {
+		border-bottom: 1px solid grey;
+	}
 }
