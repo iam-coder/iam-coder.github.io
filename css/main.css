@@ -7,15 +7,11 @@ body {
 
 
 /*////////////////*/
-
-
 /*Navbar stuff*/
-
-
 /*///////////////*/
 
 .navbar {
-    background-color: #E86C46 !important;
+    background-color: rgba(119, 232, 28, 0.3) !important;
 }
 
 .navbar a {
@@ -58,7 +54,8 @@ body {
 /*/////////////////////*/
 
 .early-access {
-    background-color: #E86C46;
+	/*height: */
+    background-color: rgba(119, 232, 28, 0.3);
 }
 
 .early-access-div {
@@ -85,11 +82,7 @@ body {
 
 
 /*////////////////////*/
-
-
-/*intro body stuff*/
-
-
+/* Intro body stuff*/
 /*////////////////////*/
 
 .intro {
@@ -109,7 +102,7 @@ body {
 
 .left {
     height: 100%;
-    background-color: #FBF1F3;
+    background-color: white;
 }
 
 @media(max-width: 512px) {
@@ -136,12 +129,12 @@ body {
 
 .right {
     height: 100%;
-    background-color: #E5F7E5;
+    background-color: white;
 }
 
-a {
-    color: inherit;
-}
+/*///////////////////////////*/
+/*Explorer button menu part*/
+/*///////////////////////////*/
 
 .menu {
     -webkit-filter: url("#goo");
@@ -353,17 +346,21 @@ a {
     transform: translate3d(-0.25084px, -104.9997px, 0);
 }
 
+/*/////////////*/
+/*Footer*/
+/*////////////*/
+
 .footer {
     height: 18px;
     width: 100% !important;
-    background: black !important;
-    color: white;
+    background: white !important;
+    color: #AC1E58;
     position: absolute;
     text-align: center;
 }
 
 @media (min-width: 992px) {
     .footer {
-        height: 21px;
+        height: 25px;
     }
 }
