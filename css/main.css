@@ -44,13 +44,12 @@ body {
     padding: 0px 15px !important;
 }
 
+.menu > a  {
+	font-size: 50px;
+}
 
 /*/////////////////////*/
-
-
 /*Early access part*/
-
-
 /*/////////////////////*/
 
 .early-access {
