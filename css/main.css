@@ -515,10 +515,26 @@ body {
 @media (min-width: 992px) {
     .footer {
         height: 25px;
+        position: absolute;
+    }
+    .pright{
+        float: right;
     }
 }
-
+/* 
 @media(max-width:: 768px) {
+    .footer > div.col-md-5 {
+        border-bottom: 1px solid grey;
+    }
+}
+ */
+
+@media(max-width: 991px) {
+    .footer {
+        height: 10% !important;
+        bottom: 0;
+        position: relative;
+    }
     .footer > div.col-md-5 {
         border-bottom: 1px solid grey;
     }
