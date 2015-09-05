@@ -136,13 +136,22 @@ p.descrip {
     width: 100% !important;
     background: white !important;
     color: #AC1E58;
-    position: absolute;
     text-align: center;
-    /*bottom: 0;*/
-    /*border-top: 1px solid grey;*/
+    bottom: 20px;
+}
+
+@media (min-width: 992px) {
+    .footer {
+        height: 25px;
+        position: absolute;
+    }
 }
 
 @media(max-width:: 768px) {
+    .footer{
+      bottom: 0;
+      position: relative !important;
+    }
     .footer > div.col-md-5 {
         border-bottom: 1px solid grey;
     }
