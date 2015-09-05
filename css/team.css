@@ -117,20 +117,20 @@ p.descrip {
 
 @media (max-width: 768px) {
     .bxo {
-        margin: 20px 15% 20px 15%; 
+        margin: 20px 15% 20px 15%;
         max-width: 70%;
         min-height: 350px;
     }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
-      .bxo{
-        
-        margin: 20px 20% 20px 20%; 
+    .bxo {
+        margin: 20px 20% 20px 20%;
         max-width: 60%;
         min-height: 375px;
-      }
+    }
 }
+
 
 /*/////////////*/
 
@@ -152,28 +152,27 @@ p.descrip {
     .footer {
         height: 30px;
         position: absolute;
-    bottom: 20px;
+        bottom: 20px;
     }
-    .pright{
-      float: right;
+    .pright {
+        float: right;
     }
 }
 
 @media(max-width: 991px) {
-    body{
-      height: auto;
+    body {
+        height: auto;
     }
     .footer {
         height: 10% !important;
         bottom: 0;
         position: relative;
-
     }
     .footer > div.col-md-5 {
         border-bottom: 1px solid grey;
     }
-  
 }
+
 
 /* @media (min-width: 769px) and (max-width: 992px) {
     .footer {

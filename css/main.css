@@ -172,7 +172,7 @@ body {
     -moz-filter: url("goo");
     -ms-filter: url("#goo");
     -o-filter: url("#goo");
-    filter: url("#goo");
+    filter: url("/#goo");
 }
 
 .menu-item,

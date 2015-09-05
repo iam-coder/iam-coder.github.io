@@ -70,7 +70,7 @@
                 </p>
             </div>
             <div class="bxo col-md-3">
-                <img class="dp" src="img/akul.jpg" alt="Akul">
+                <img class="dp akul-img" src="img/akul.jpg" alt="Akul">
                 <p class="name">
                     Akul Mehra
                     <br>
@@ -114,6 +114,13 @@
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
     });
+
+    $(".akul-img").hover(
+        function(){
+            $(this).attr("src", "img/akul2.jpg");
+        }, function(){
+            $(this).attr("src", "img/akul.jpg");
+        });
     </script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/ripples.js"></script>
