@@ -7,7 +7,11 @@ body {
 
 
 /*////////////////*/
+
+
 /*Navbar stuff*/
+
+
 /*///////////////*/
 
 .navbar {
@@ -44,12 +48,17 @@ body {
     padding: 0px 15px !important;
 }
 
-.menu > a  {
-	font-size: 50px;
+.menu > a {
+    font-size: 50px;
 }
 
+
 /*/////////////////////*/
+
+
 /*Early access part*/
+
+
 /*/////////////////////*/
 
 .early-access {
@@ -57,7 +66,7 @@ body {
 }
 
 .early-access > div .col-md-5 {
-	vertical-align: middle;
+    vertical-align: middle;
 }
 
 .early-access-div {
@@ -77,19 +86,29 @@ body {
     -webkit-input-placeholder {
         color: black;
     }
+    -ms-input-placeholder {
+        color: black;
+    }
     -moz-placeholder {
+        color: black;
+    }
+    -o-input-placeholder {
         color: black;
     }
 }
 
-.sbtn{
+.sbtn {
     background: #AC1E58;
     color: white;
 }
 
 
 /*////////////////////*/
+
+
 /* Intro body stuff*/
+
+
 /*////////////////////*/
 
 .intro {
@@ -139,12 +158,20 @@ body {
     background-color: white;
 }
 
+
 /*///////////////////////////*/
+
+
 /*Explorer button menu part*/
+
+
 /*///////////////////////////*/
 
 .menu {
     -webkit-filter: url("#goo");
+    -moz-filter: url("goo");
+    -ms-filter: url("#goo");
+    -o-filter: url("#goo");
     filter: url("#goo");
 }
 
@@ -161,8 +188,14 @@ body {
     text-align: center;
     line-height: 80px;
     -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     -webkit-transition: -webkit-transform ease-out 200ms;
+    -moz-transition: -moz-transform ease-out 200ms;
+    -ms-transition: -ms-transform ease-out 200ms;
+    -o-transition: -o-transform ease-out 200ms;
     transition: transform ease-out 200ms;
 }
 
@@ -188,36 +221,57 @@ body {
     margin-left: -12.5px;
     margin-top: -1.5px;
     -webkit-transition: -webkit-transform 200ms;
+    -moz-transition: -moz-transform 200ms;
+    -ms-transition: -ms-transform 200ms;
+    -o-transition: -o-transform 200ms;
     transition: transform 200ms;
 }
 
 .hamburger-1 {
     -webkit-transform: translate3d(0, -8px, 0);
+    -moz-transform: translate3d(0, -8px, 0);
+    -ms-transform: translate3d(0, -8px, 0);
+    -o-transform: translate3d(0, -8px, 0);
     transform: translate3d(0, -8px, 0);
 }
 
 .hamburger-2 {
     -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
 }
 
 .hamburger-3 {
     -webkit-transform: translate3d(0, 8px, 0);
+    -moz-transform: translate3d(0, 8px, 0);
+    -ms-transform: translate3d(0, 8px, 0);
+    -o-transform: translate3d(0, 8px, 0);
     transform: translate3d(0, 8px, 0);
 }
 
 .menu-open:checked + .menu-open-button .hamburger-1 {
     -webkit-transform: translate3d(0, 0, 0) rotate(45deg);
+    -moz-transform: translate3d(0, 0, 0) rotate(45deg);
+    -ms-transform: translate3d(0, 0, 0) rotate(45deg);
+    -o-transform: translate3d(0, 0, 0) rotate(45deg);
     transform: translate3d(0, 0, 0) rotate(45deg);
 }
 
 .menu-open:checked + .menu-open-button .hamburger-2 {
     -webkit-transform: translate3d(0, 0, 0) scale(0.1, 1);
+    -moz-transform: translate3d(0, 0, 0) scale(0.1, 1);
+    -ms-transform: translate3d(0, 0, 0) scale(0.1, 1);
+    -o-transform: translate3d(0, 0, 0) scale(0.1, 1);
     transform: translate3d(0, 0, 0) scale(0.1, 1);
 }
 
 .menu-open:checked + .menu-open-button .hamburger-3 {
     -webkit-transform: translate3d(0, 0, 0) rotate(-45deg);
+    -moz-transform: translate3d(0, 0, 0) rotate(-45deg);
+    -ms-transform: translate3d(0, 0, 0) rotate(-45deg);
+    -o-transform: translate3d(0, 0, 0) rotate(-45deg);
     transform: translate3d(0, 0, 0) rotate(-45deg);
 }
 
@@ -241,120 +295,212 @@ body {
 
 .menu-item:nth-child(3) {
     -webkit-transition-duration: 180ms;
+    -moz-transition-duration: 180ms;
+    -ms-transition-duration: 180ms;
+    -o-transition-duration: 180ms;
     transition-duration: 180ms;
 }
 
 .menu-item:nth-child(4) {
     -webkit-transition-duration: 180ms;
+    -moz-transition-duration: 180ms;
+    -ms-transition-duration: 180ms;
+    -o-transition-duration: 180ms;
     transition-duration: 180ms;
 }
 
 .menu-item:nth-child(5) {
     -webkit-transition-duration: 180ms;
+    -moz-transition-duration: 180ms;
+    -ms-transition-duration: 180ms;
+    -o-transition-duration: 180ms;
     transition-duration: 180ms;
 }
 
 .menu-item:nth-child(6) {
     -webkit-transition-duration: 180ms;
+    -moz-transition-duration: 180ms;
+    -ms-transition-duration: 180ms;
+    -o-transition-duration: 180ms;
     transition-duration: 180ms;
 }
 
 .menu-item:nth-child(7) {
     -webkit-transition-duration: 180ms;
+    -moz-transition-duration: 180ms;
+    -ms-transition-duration: 180ms;
+    -o-transition-duration: 180ms;
     transition-duration: 180ms;
 }
 
 .menu-item:nth-child(8) {
     -webkit-transition-duration: 180ms;
+    -moz-transition-duration: 180ms;
+    -ms-transition-duration: 180ms;
+    -o-transition-duration: 180ms;
     transition-duration: 180ms;
 }
 
 .menu-item:nth-child(9) {
     -webkit-transition-duration: 180ms;
+    -moz-transition-duration: 180ms;
+    -ms-transition-duration: 180ms;
+    -o-transition-duration: 180ms;
     transition-duration: 180ms;
 }
 
 .menu-open-button {
     z-index: 2;
     -webkit-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -moz-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -ms-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    -o-transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     -webkit-transition-duration: 400ms;
+    -moz-transition-duration: 400ms;
+    -ms-transition-duration: 400ms;
+    -o-transition-duration: 400ms;
     transition-duration: 400ms;
     -webkit-transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+    -moz-transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+    -ms-transform: scale(1.1, 1.1) translate3d(0, 0, 0);
+    -o-transform: scale(1.1, 1.1) translate3d(0, 0, 0);
     transform: scale(1.1, 1.1) translate3d(0, 0, 0);
     cursor: pointer;
 }
 
 .menu-open-button:hover {
     -webkit-transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+    -moz-transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+    -ms-transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+    -o-transform: scale(1.2, 1.2) translate3d(0, 0, 0);
     transform: scale(1.2, 1.2) translate3d(0, 0, 0);
 }
 
 .menu-open:checked + .menu-open-button {
     -webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -ms-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
     transition-timing-function: linear;
     -webkit-transition-duration: 200ms;
+    -moz-transition-duration: 200ms;
+    -ms-transition-duration: 200ms;
+    -o-transition-duration: 200ms;
     transition-duration: 200ms;
     -webkit-transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+    -moz-transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+    -ms-transform: scale(0.8, 0.8) translate3d(0, 0, 0);
+    -o-transform: scale(0.8, 0.8) translate3d(0, 0, 0);
     transform: scale(0.8, 0.8) translate3d(0, 0, 0);
 }
 
 .menu-open:checked ~ .menu-item {
     -webkit-transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
+    -moz-transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
+    -ms-transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
+    -o-transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
     transition-timing-function: cubic-bezier(0.935, 0, 0.34, 1.33);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(3) {
     -webkit-transition-duration: 180ms;
+    -moz-transition-duration: 180ms;
+    -ms-transition-duration: 180ms;
+    -o-transition-duration: 180ms;
     transition-duration: 180ms;
     -webkit-transform: translate3d(0.08361px, -104.99997px, 0);
+    -moz-transform: translate3d(0.08361px, -104.99997px, 0);
+    -ms-transform: translate3d(0.08361px, -104.99997px, 0);
+    -o-transform: translate3d(0.08361px, -104.99997px, 0);
     transform: translate3d(0.08361px, -104.99997px, 0);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(4) {
     -webkit-transition-duration: 280ms;
+    -moz-transition-duration: 280ms;
+    -ms-transition-duration: 280ms;
+    -o-transition-duration: 280ms;
     transition-duration: 280ms;
     -webkit-transform: translate3d(90.9466px, -52.47586px, 0);
+    -moz-transform: translate3d(90.9466px, -52.47586px, 0);
+    -ms-transform: translate3d(90.9466px, -52.47586px, 0);
+    -o-transform: translate3d(90.9466px, -52.47586px, 0);
     transform: translate3d(90.9466px, -52.47586px, 0);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(5) {
     -webkit-transition-duration: 380ms;
+    -moz-transition-duration: 380ms;
+    -ms-transition-duration: 380ms;
+    -o-transition-duration: 380ms;
     transition-duration: 380ms;
     -webkit-transform: translate3d(90.9466px, 52.47586px, 0);
+    -moz-transform: translate3d(90.9466px, 52.47586px, 0);
+    -ms-transform: translate3d(90.9466px, 52.47586px, 0);
+    -o-transform: translate3d(90.9466px, 52.47586px, 0);
     transform: translate3d(90.9466px, 52.47586px, 0);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(6) {
     -webkit-transition-duration: 480ms;
+    -moz-transition-duration: 480ms;
+    -ms-transition-duration: 480ms;
+    -o-transition-duration: 480ms;
     transition-duration: 480ms;
     -webkit-transform: translate3d(0.08361px, 104.99997px, 0);
+    -moz-transform: translate3d(0.08361px, 104.99997px, 0);
+    -ms-transform: translate3d(0.08361px, 104.99997px, 0);
+    -o-transform: translate3d(0.08361px, 104.99997px, 0);
     transform: translate3d(0.08361px, 104.99997px, 0);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(7) {
     -webkit-transition-duration: 580ms;
+    -moz-transition-duration: 580ms;
+    -ms-transition-duration: 580ms;
+    -o-transition-duration: 580ms;
     transition-duration: 580ms;
     -webkit-transform: translate3d(-90.86291px, 52.62064px, 0);
+    -moz-transform: translate3d(-90.86291px, 52.62064px, 0);
+    -ms-transform: translate3d(-90.86291px, 52.62064px, 0);
+    -o-transform: translate3d(-90.86291px, 52.62064px, 0);
     transform: translate3d(-90.86291px, 52.62064px, 0);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(8) {
     -webkit-transition-duration: 680ms;
+    -moz-transition-duration: 680ms;
+    -ms-transition-duration: 680ms;
+    -o-transition-duration: 680ms;
     transition-duration: 680ms;
     -webkit-transform: translate3d(-91.03006px, -52.33095px, 0);
+    -moz-transform: translate3d(-91.03006px, -52.33095px, 0);
+    -ms-transform: translate3d(-91.03006px, -52.33095px, 0);
+    -o-transform: translate3d(-91.03006px, -52.33095px, 0);
     transform: translate3d(-91.03006px, -52.33095px, 0);
 }
 
 .menu-open:checked ~ .menu-item:nth-child(9) {
     -webkit-transition-duration: 780ms;
+    -moz-transition-duration: 780ms;
+    -ms-transition-duration: 780ms;
+    -o-transition-duration: 780ms;
     transition-duration: 780ms;
     -webkit-transform: translate3d(-0.25084px, -104.9997px, 0);
+    -moz-transform: translate3d(-0.25084px, -104.9997px, 0);
+    -ms-transform: translate3d(-0.25084px, -104.9997px, 0);
+    -o-transform: translate3d(-0.25084px, -104.9997px, 0);
     transform: translate3d(-0.25084px, -104.9997px, 0);
 }
 
+
 /*/////////////*/
+
+
 /*Footer*/
+
+
 /*////////////*/
 
 .footer {
@@ -372,8 +518,8 @@ body {
     }
 }
 
-@media(max-width: : 768px){
-	.footer > div.col-md-5 {
-		border-bottom: 1px solid grey;
-	}
+@media(max-width:: 768px) {
+    .footer > div.col-md-5 {
+        border-bottom: 1px solid grey;
+    }
 }
