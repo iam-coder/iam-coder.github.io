@@ -65,7 +65,7 @@ body {
 .dp {
     width: 200px;
     height: 200px;
-    margin: 0 auto;
+    margin: 10px auto;
     display: block;
     border-radius: 100px;
 }
@@ -97,10 +97,11 @@ p.descrip {
     border-radius: 20px;
 }
 
-.col-md-3 {
+.bxo {
     padding: 10px;
     background-color: #f2f2f2;
     border-radius: 20px;
+    margin: 0 0 0 6.5%;
 }
 
 .who {
@@ -111,17 +112,25 @@ p.descrip {
 }
 
 .bxo {
-    min-height: 350px;
+    min-height: 400px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
     .bxo {
-        margin: 0 auto;
-        max-width: 450px;
+        margin: 20px 15% 20px 15%; 
+        max-width: 70%;
         min-height: 350px;
     }
 }
 
+@media (min-width: 769px) and (max-width: 992px) {
+      .bxo{
+        
+        margin: 20px 20% 20px 20%; 
+        max-width: 60%;
+        min-height: 375px;
+      }
+}
 
 /*/////////////*/
 
@@ -132,33 +141,42 @@ p.descrip {
 /*////////////*/
 
 .footer {
-    height: 10%;
+    height: 18px;
     width: 100% !important;
     background: white !important;
     color: #AC1E58;
     text-align: center;
-    bottom: 20px;
-}
-
-@media (min-width: 992px) {
-    .footer {
-        height: 25px;
-        position: absolute;
-    }
-}
-
-@media(max-width:: 768px) {
-    .footer{
-      bottom: 0;
-      position: relative !important;
-    }
-    .footer > div.col-md-5 {
-        border-bottom: 1px solid grey;
-    }
 }
 
 @media (min-width: 992px) {
     .footer {
         height: 30px;
+        position: absolute;
+    bottom: 20px;
+    }
+    .pright{
+      float: right;
     }
 }
+
+@media(max-width: 991px) {
+    body{
+      height: auto;
+    }
+    .footer {
+        height: 10% !important;
+        bottom: 0;
+        position: relative;
+
+    }
+    .footer > div.col-md-5 {
+        border-bottom: 1px solid grey;
+    }
+  
+}
+
+/* @media (min-width: 769px) and (max-width: 992px) {
+    .footer {
+        height: 30px;
+    }
+} */
