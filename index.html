@@ -66,18 +66,18 @@
                 </div>
                 <div class="col-md-8 col-xs-12 right">
                     <nav class="menu">
-                        <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
-                        <label class="menu-open-button" for="menu-open">
+                        <input type="checkbox" href="#" class="menu-open active" name="menu-open" id="menu-open" />
+                        <label class="menu-open-button" for="menu-open" data-title="Click Me!!">
                             <span class="hamburger hamburger-1"></span>
                             <span class="hamburger hamburger-2"></span>
                             <span class="hamburger hamburger-3"></span>
                         </label>
-                        <a href="#" class="menu-item"> <i class="devicon-nginx-original"></i> </a>
-                        <a href="#" class="menu-item"> <i class="devicon-django-line"></i> </a>
-                        <a href="#" class="menu-item"> <i class="devicon-cplusplus-line"></i> </a>
-                        <a href="#" class="menu-item"> <i class="devicon-angularjs-plain colored"></i> </a>
-                        <a href="#" class="menu-item"> <i class="devicon-python-plain colored"></i> </a>
-                        <a href="#" class="menu-item"> <i class="devicon-nodejs-plain colored"></i> </a>
+                        <a href="#" class="menu-item" data-title="NGINX"> <i class="devicon-nginx-original"></i> </a>
+                        <a href="#" class="menu-item" data-title="Django"> <i class="devicon-django-line"></i> </a>
+                        <a href="#" class="menu-item" data-title="C++"> <i class="devicon-cplusplus-line"></i> </a>
+                        <a href="#" class="menu-item" data-title="AngularJS"> <i class="devicon-angularjs-plain colored"></i> </a>
+                        <a href="#" class="menu-item" data-title="Python"> <i class="devicon-python-plain colored"></i> </a>
+                        <a href="#" class="menu-item" data-title="NodeJS"> <i class="devicon-nodejs-plain colored"></i> </a>
                     </nav>
                     <!-- filters -->
                     <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -160,23 +160,31 @@
         RndText();
     }, 500);
     </script>
-    
     <script>
-        window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')
+    window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')
     </script>
-
     <!-- Smooth Scrolling -->
     <script>
+    
     $("#menu-close").click(function(e) {
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
     });
     </script>
-
+    <script>
+    var check;
+    $("#menu-open").on("click", function(){
+    check = $("#menu-open").is(":checked");    
+    if (check) {
+        $(".menu-open-button").attr("data-title", "Close Me!!!");
+    } else {
+        $(".menu-open-button").attr("data-title", "Click Me!!");
+    }
+    });
+    </script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/ripples.js"></script>
     <script src="js/main.js"></script>
-    
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
     (function(b, o, i, l, e, r) {
@@ -194,7 +202,6 @@
     ga('create', 'UA-XXXXX-X', 'auto');
     ga('send', 'pageview');
     </script>
-
 </body>
 
 </html>

@@ -494,6 +494,28 @@ body {
     transform: translate3d(-0.25084px, -104.9997px, 0);
 }
 
+a[data-title]:hover:after{
+    content: attr(data-title);
+    background: rgba(255, 255, 255, 0);
+    color: #AC1E58;
+    font-size: 15px;
+    z-index: 20;
+    font-family: "Raleway" !important;
+    position: absolute;
+    padding: 10px 0 0 0;
+    top:32%;
+    left: 18%;
+}
+.menu-open-button[data-title]:hover:after{
+    content: attr(data-title);
+    color: black;
+    top: 70%;
+    font-size: 15px;
+    left: 5%;
+    position: relative;
+    margin-bottom: 0 auto;
+}
+
 
 /*/////////////*/
 
