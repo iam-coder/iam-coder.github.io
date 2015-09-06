@@ -1,0 +1,131 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Raleway" !important;
+}
+
+
+/*////////////////*/
+
+
+/*Navbar stuff*/
+
+
+/*///////////////*/
+
+.navbar {
+    background-color: rgb(214, 248, 187) !important;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-toggle {
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 40px;
+}
+
+@media(min-width: 768px) {
+    .navbar .navbar-brand {
+        padding: 0px 15px !important;
+    }
+}
+
+.nav > li {
+    padding: 4px 10px;
+    text-transform: uppercase;
+}
+
+.nav> li >a:hover {
+    background-color: #CF5F71;
+}
+
+.navbar .navbar-brand {
+    padding: 0px 15px !important;
+}
+
+
+/*////////////////////*/
+
+
+/* Intro and Info*/
+
+
+/*////////////////////*/
+
+.intro {
+    height: 5%;
+    background-color: grey;
+}
+
+.info {
+    height: 100%;
+    padding-top: 60px;
+}
+
+.who {
+    font-size: 30px;
+    text-align: center;
+    color: #AC1E58;
+    text-transform: uppercase;
+}
+
+.block {
+    height: 50%;
+    background-color: grey;
+}
+
+.layover {
+    height: 10%;
+    background-color: green;
+}
+
+.mission {
+    height: 75%;
+    background-color: pink;
+}
+
+/*/////////////*/
+
+
+/*Footer*/
+
+
+/*////////////*/
+
+.footer {
+    height: 18px;
+    width: 100% !important;
+    background: white !important;
+    color: #AC1E58;
+    text-align: center;
+}
+
+@media (min-width: 992px) {
+    .footer {
+        height: 30px;
+        position: relative;
+        bottom: 0;
+    }
+    .pright {
+        float: right;
+    }
+}
+
+@media(max-width: 991px) {
+    body {
+        height: auto;
+    }
+    .footer {
+        height: 10% !important;
+        bottom: 0;
+        position: relative;
+    }
+    .footer > div.col-md-5 {
+        border-bottom: 1px solid grey;
+    }
+}
