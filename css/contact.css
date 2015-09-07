@@ -96,12 +96,13 @@ hr {
 @media (max-width: 767px){
     .pright1{
         text-align: center;
-    }
+        position: relative;
+            }
     .section-title{
         text-align: center;
     }
-    .icons > a{
-        float: auto;
+    .footer-social-icons > a{
+        text-align: center;
     }
     .blpadd{
         padding-left: 10%;

@@ -48,6 +48,7 @@
             </div>
         </div>
     </nav>
+    <div id="particles-js"></div>
     <div class="intro" id="index">
         <div class="container intro-body">
             <div class="row">
@@ -59,7 +60,9 @@
                         <h3>What can you learn here ?</h3>
                     </div>
                     <div class="left-inner text-center">
-                        <div id="arraytext"></div>
+                        <span id="arraytext" class="element">
+                      </span>
+                      <span id="cursor">|</span>
                         <br>
                         <h4>Let's get started ;)</h4>
                     </div>
@@ -138,7 +141,7 @@
         </div>
     </footer>
     <script type="text/javascript">
-    var textarray = [
+    /*var textarray = [
         "Front-End Development",
         "Back-End Development",
         "Algorithms",
@@ -158,7 +161,7 @@
 
     var inter = setInterval(function() {
         RndText();
-    }, 500);
+    }, 500);*/
     </script>
     <script>
     window.jQuery || document.write('<script src="js/jquery-1.11.2.min.js"><\/script>')
@@ -185,6 +188,26 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/ripples.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/typed.js"></script>
+    <script>
+    $(function(){
+        $(".element").typed({
+            strings: [  "Front-End Development",
+                        "Back-End Development",
+                        "Algorithms",
+                        "Data Structures",
+                        "Functional Programming Languages",
+                        "Databases like Mongo",
+                        "and much more..."],
+            typeSpeed: 70,
+            backDelay: 2000,
+            loop: true,
+        });
+    });
+    </script>
+    <script src="js/particles.js"></script>
+    <script src="js/app.js"></script>
+
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
     (function(b, o, i, l, e, r) {
