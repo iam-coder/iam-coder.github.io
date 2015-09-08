@@ -176,37 +176,38 @@ body {
 }
 
 .frame1 {
-    left: -431px;
-    top: -95px;
+    left: -45px;
+    top: -92px;
 }
 
-.frame2 {
-    left: -142px;
+.frame2{ 
+    left: 242px;
+    top: 3px;
 }
 
-.frame3 {
-    left: 142px;
-    top: -20px;
+.frame3{
+    left: 531px;
+    top: -18px;
 }
 
-.frame4 {
-    top: 84px;
-    left: 72px;
+.frame4{
+    top: 87px;
+    left: 459px;
 }
 
-.frame5 {
-    top: 64px;
-    left: -72px;
+.frame5{
+    top: 68px;
+    left: 315px;
 }
 
-.frame6 {
-    top: -204px;
-    left: 71px;
+.frame6{
+    top: -202px;
+    left: 458px;
 }
 
-.frame7 {
-    top: -224px;
-    left: -71px;
+.frame7{
+    top: -222px;
+    left: 314px;
 }
 
 .frame:hover .hex-inner {
@@ -221,38 +222,41 @@ body {
 }
 
 .frame8 {
-    left: -431px;
-    top: 60px;
+    left: 22px;
+    top: 8px;
 }
 
 .frame9 {
-    left: 342px;
-    top: -20px;
+
+    /*208 left:-49         342 -20*/
+    left: -49px;    /*391 minus*/
+    top: 268px;       
+    /*228 minus */
 }
 
 .frame10 {
-    left: 58px;
-    top: -40px;
+    left: -123px;
+    top: 124px;
 }
 
 .frame11 {
-    left: 272px;
-    top: 62px;
+    left: 166px;
+    top: 102px;
 }
 
 .frame12 {
-    left: 129px;
-    top: 43px;
+    left: 94px;
+    top: 207px;
 }
 
 .frame13 {
-    left: 129px;
-    top: -222px;
+    left: -51px;
+    top: -61px;
 }
 
 .frame14 {
-    left: 272px;
-    top: -242px;
+    left: 94px;
+    top: -81px;
 }
 
 .hide2 {
@@ -260,40 +264,38 @@ body {
 }
 
 .frame15 {
-    left: -431px;
-    top: 215px;
+    left: 100px;
+    top: 5px;
 }
-
 .frame16 {
-    left: 342px;
-    top: -20px;
+    left: -343px;
+    top: 9px;
 }
 
 .frame17 {
-    left: 58px;
-    top: -40px;
+    left: -199px;
+    top: -10px;
 }
 
 .frame18 {
-    left: 272px;
-    top: 62px;
+    left: -416px;
+    top: 93px;
 }
 
 .frame19 {
-    left: 129px;
-    top: 43px;
+    left: -130px;
+    top: 75px;
 }
 
 .frame20 {
-    left: 129px;
-    top: -222px;
+    left: -346px;
+    top: 178px;
 }
 
 .frame21 {
-    left: 272px;
-    top: -242px;
+    left: -202px;
+    top: 159px;
 }
-
 .hide3 {
     display: none;
 }
